@@ -1,0 +1,36 @@
+name: Предложить стажировку, вакансию или канал
+description: Нашли живую стажировку, программу или полезный канал? Пришлите — проверим и добавим.
+title: "[Добавить] "
+labels: ["новая запись"]
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Что это
+      options: [Стажировка / программа работодателя, Вакансия без опыта, Telegram/VK-канал или площадка, Курс, Ресурс для практики]
+    validations: {required: true}
+  - type: input
+    id: url
+    attributes:
+      label: Прямая ссылка
+      placeholder: https://...
+    validations: {required: true}
+  - type: input
+    id: company
+    attributes:
+      label: Компания / название
+    validations: {required: true}
+  - type: textarea
+    id: facts
+    attributes:
+      label: Что известно (дедлайн, оплата, кто может участвовать, нужен ли опыт)
+      description: Пишите факты со страницы, а не впечатления. Отзывы не считаются доказательством.
+  - type: checkboxes
+    id: check
+    attributes:
+      label: Проверка
+      options:
+        - label: Ссылка открывается и набор/вакансия сейчас активны
+          required: true
+        - label: Это не реклама моего курса или сервиса
+          required: true
