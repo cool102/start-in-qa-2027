@@ -1,14 +1,14 @@
-name,category,direct_url,what_for,legal_notes,status,source_url,source_name,source_type,date_found,date_verified,last_activity,evidence,notes
-Swagger Petstore,практика API,https://petstore.swagger.io/,"учебный REST API: Postman-коллекция, Swagger",создан для практики; не устраивайте нагрузку,active,https://petstore.swagger.io/,Swagger Petstore,resource,2026-09-17,2026-09-17,2026-09-17,страница открыта 17.09.2026,
-JSONPlaceholder,практика API,https://jsonplaceholder.typicode.com/,фейковый REST API для запросов GET/POST/PUT/DELETE,бесплатный сервис для тестов и прототипов,active,https://jsonplaceholder.typicode.com/,JSONPlaceholder,resource,2026-09-17,2026-09-17,2026-09-17,страница открыта 17.09.2026,
-httpbin,практика HTTP,https://httpbin.org/,"заголовки, коды ответов, cookies, redirect",сервис для тестирования HTTP,active,https://httpbin.org/,httpbin,resource,2026-09-17,2026-09-17,2026-09-17,страница открыта 17.09.2026,
-Sauce Demo (Swag Labs),практика UI,https://www.saucedemo.com/,учебный интернет-магазин; есть пользователи problem_user и locked_out_user с багами,демо-стенд для тестирования,active,https://www.saucedemo.com/,Sauce Demo (Swag Labs),resource,2026-09-17,2026-09-17,2026-09-17,страница открыта 17.09.2026,
-DemoQA,практика UI,https://demoqa.com/,"формы, виджеты, таблицы, книжный магазин с API",демо-стенд для практики,active,https://demoqa.com/,DemoQA,resource,2026-09-17,2026-09-17,2026-09-17,страница открыта 17.09.2026,
-SQL Academy,практика SQL,https://sql-academy.org/en,интерактивный тренажёр SQL,—,active,https://sql-academy.org/en,SQL Academy,resource,2026-09-17,2026-09-17,2026-09-17,страница открыта 17.09.2026: основная часть бесплатна,
-Интерактивный тренажёр по SQL (Stepik),практика SQL,https://stepik.org/course/63054/promo,бесплатный курс-тренажёр SQL,—,active,https://stepik.org/course/63054/promo,Интерактивный тренажёр по SQL (Stepik),resource,2026-09-17,2026-09-17,2026-09-17,"страница открыта 17.09.2026: бесплатно, 173 интерактивные задачи",
-Подборка песочниц для QA (Хабр),список площадок,https://habr.com/ru/articles/906152/,"UI-песочницы с багами, API, GraphQL, security",security-площадки (Juice Shop) запускайте локально,active,https://habr.com/ru/articles/906152/,Подборка песочниц для QA (Хабр),resource,2026-09-17,2026-09-17,2026-09-17,статья открыта 17.09.2026,
-YoungJunior — вопросы с собеседований QA,подготовка к интервью,https://youngjunior.ru/qa/interviews,"484 вопроса с реальных собеседований QA с ответами, по частоте",—,active,https://youngjunior.ru/qa/interviews,YoungJunior — вопросы с собеседований QA,resource,2026-09-17,2026-09-17,2026-09-17,страница открыта 17.09.2026: 484 вопроса с реальных интервью,
-Портфолио junior QA: KurehanovaQA,пример портфолио,https://github.com/KurehanovaQA/KurehanovaQA-Portfolio,"тест-дизайн, тест-кейсы, баг-репорты, SQL, Postman-коллекции",—,active,https://github.com/KurehanovaQA/KurehanovaQA-Portfolio,Портфолио junior QA: KurehanovaQA,resource,2026-09-17,2026-09-17,2026-09-17,репозиторий открыт 17.09.2026,"Папки: тест-дизайн, тест-кейсы, баг-репорты, TestRail, SQL, Postman"
-Портфолио junior QA: juliet089,пример портфолио,https://github.com/juliet089/qa-portfolio,пример небольшого учебного портфолио,—,active,https://github.com/juliet089/qa-portfolio,Портфолио junior QA: juliet089,resource,2026-09-17,2026-09-17,2026-09-17,репозиторий открыт 17.09.2026,Один учебный проект (LearnQA Playground) с оформленным README
-Портфолио junior QA: 7300E9,пример портфолио,https://github.com/7300E9/qa-portfolio,"тест-документация, баг-репорты, API, SQL",—,active,https://github.com/7300E9/qa-portfolio,Портфолио junior QA: 7300E9,resource,2026-09-17,2026-09-17,2026-09-17,репозиторий открыт 17.09.2026,"Папки: api-testing, bug-reports, checklists, sql, test-cases"
-Портфолио junior QA: YanaMatveeva1,пример портфолио,https://github.com/YanaMatveeva1/qa-portfolio,"чек-листы, тест-кейсы, баг-репорты по учебным веб-приложениям",—,active,https://github.com/YanaMatveeva1/qa-portfolio,Портфолио junior QA: YanaMatveeva1,resource,2026-09-17,2026-09-17,2026-09-17,репозиторий открыт 17.09.2026,"Матрица трассируемости требований (RTM), тест-кейсы, чек-лист, баг-репорты"
+name,type,url
+Swagger Petstore,API,https://petstore.swagger.io/
+JSONPlaceholder,API,https://jsonplaceholder.typicode.com/
+httpbin,HTTP,https://httpbin.org/
+Sauce Demo (Swag Labs),UI,https://www.saucedemo.com/
+DemoQA,UI,https://demoqa.com/
+SQL Academy,SQL,https://sql-academy.org/en
+Интерактивный тренажёр по SQL (Stepik),SQL,https://stepik.org/course/63054/promo
+Подборка песочниц для QA (Хабр),подборка площадок,https://habr.com/ru/articles/906152/
+YoungJunior — вопросы с собеседований QA,собеседования,https://youngjunior.ru/qa/interviews
+Портфолио junior QA: KurehanovaQA,портфолио,https://github.com/KurehanovaQA/KurehanovaQA-Portfolio
+Портфолио junior QA: juliet089,портфолио,https://github.com/juliet089/qa-portfolio
+Портфолио junior QA: 7300E9,портфолио,https://github.com/7300E9/qa-portfolio
+Портфолио junior QA: YanaMatveeva1,портфолио,https://github.com/YanaMatveeva1/qa-portfolio
