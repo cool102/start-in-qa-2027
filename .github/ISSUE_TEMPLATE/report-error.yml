@@ -1,0 +1,15 @@
+name: Сообщить об ошибке или устаревшей записи
+description: Ссылка битая, набор закрыт, в описании ошибка.
+title: "[Ошибка] "
+labels: ["исправить"]
+body:
+  - type: input
+    id: where
+    attributes:
+      label: Какая запись (название или ссылка)
+    validations: {required: true}
+  - type: textarea
+    id: what
+    attributes:
+      label: Что не так и как вы это проверили
+    validations: {required: true}
